@@ -1,8 +1,6 @@
-root:true
 /** @type {import('next').NextConfig} */
 module.exports = {
+  root:'',
   reactStrictMode: false,
-  // images: {
-  //   disableStaticImages: true
-  // }
+  requireConfigFile: false
 }
