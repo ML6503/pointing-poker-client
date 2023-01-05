@@ -38,7 +38,7 @@ const PageNotFound:FC<PageNotFoundProps> = ({message}) => {
           <Typography variant="h2" color='primary'>404</Typography>
           <Typography variant="h4"  color='primary'>page not found</Typography>
           {message && <Typography variant="h5"  color='primary'>{message}</Typography>}
-          <Link href="/">
+          <Link href="/" passHref>
           <Button
             color="secondary"
             aria-label="home"

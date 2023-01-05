@@ -1,7 +1,7 @@
 {
-    // "presets": ["next"],
-    "parser": "@babel/eslint-parser",
-    "plugins": [],
+    "presets": ["next/babel"],
+    // "parser": "@babel/eslint-parser",
+    "plugins": []
 
 
 }
