@@ -6,6 +6,8 @@ import {
 
 axios.defaults.baseURL = process.env.NEXT_PUBLIC_SERVER_BASE_URL;
 
+console.log('URL ', axios.defaults.baseURL);
+
 export const apiGetLobbyUsers = async (room: string | Array<string>) => {
   if (typeof room === 'string') {
     const users = await axios({
